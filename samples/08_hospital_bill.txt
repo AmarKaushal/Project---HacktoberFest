@@ -1,0 +1,26 @@
+SAMPLE – FAKE DATA. Every name, number and address below is made up for testing MaskIN.
+
+SANJIVANI MULTISPECIALITY HOSPITAL — FINAL BILL
+Bill No: SMH/IP/2026/4471          Date: 20-10-2026
+
+Patient name: Ganesh Pawar            Age/Sex: 55 / Male
+Date of Birth: 12/04/1971
+Address: 17, Gandhi Nagar Road, Ram Nagar, Kolhapur - 416003
+Mobile: +91 70463 04647
+Policy holder: Sneha Pawar            Policy No: HLT/2026/9562993
+Insurer: Star Health (cashless claim)
+
+Admitted: 15-10-2026      Discharged: 19-10-2026      Diagnosis: Acute appendicitis, laparoscopic appendectomy
+
+Particulars                              Amount (Rs)
+Room charges (4 days x 4,500)            18,000
+Surgeon fees                             35,000
+Anaesthesia                              8,000
+Operation theatre                        12,000
+Medicines and consumables                14,650
+Lab tests                                6,200
+Nursing                                  4,000
+Total                                    97,850
+Less: Non-payable items                  (2,340)
+Claim amount requested                   95,510
+Paid by patient (deposit)                10,000

@@ -1,0 +1,92 @@
+KYC Verification Letters
+SAMPLE – FAKE DATA. Every name, number and address below is made up for testing MaskIN.
+
+Letter 1 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Ramesh Kumar.
+Name: Ramesh Kumar
+Address: 12, MG Road, Shivaji Nagar, Pune - 411005
+Mobile: +91 66956 04331
+Aadhaar No: 7504 5195 8882
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 2 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Sunita Patil.
+Name: Sunita Patil
+Address: Flat 304, Sai Residency, Kothrud, Pune - 411038
+Mobile: +91 94119 83517
+Aadhaar No: 2519 0684 9215
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 3 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Imran Shaikh.
+Name: Imran Shaikh
+Address: 45, Station Road, Nashik - 422001
+Mobile: +91 62372 90253
+Aadhaar No: 8590 9976 5592
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 4 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Priya Deshpande.
+Name: Priya Deshpande
+Address: B-7, Laxmi Nagar, Nagpur - 440022
+Mobile: +91 88900 38766
+Aadhaar No: 7245 9038 1880
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 5 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of सुनीता शर्मा.
+Name: सुनीता शर्मा
+Address: मकान नं. 21, नेहरू मार्ग, राजेंद्र नगर, लखनऊ - 226004
+Mobile: +91 98180 09478
+Aadhaar No: 7567 4253 7846
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 6 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Arjun Nair.
+Name: Arjun Nair
+Address: 9, Church Street, Bengaluru - 560001
+Mobile: +91 90785 89802
+Aadhaar No: 8402 9285 6464
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 7 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of राजेश वर्मा.
+Name: राजेश वर्मा
+Address: फ्लैट 12, तिलक मार्ग, शास्त्री नगर, जयपुर - 302016
+Mobile: +91 98425 50636
+Aadhaar No: 2807 2321 3685
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 8 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Kavita Joshi.
+Name: Kavita Joshi
+Address: House No. 88, Tilak Road, Sadashiv Peth, Pune - 411030
+Mobile: +91 61199 00198
+Aadhaar No: 3147 8975 4728
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 9 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Vikram Singh.
+Name: Vikram Singh
+Address: Plot 5, Civil Lines, Kanpur - 208001
+Mobile: +91 87724 87468
+Aadhaar No: 5484 3986 7874
+Your KYC status is now verified. — Branch Operations Team
+
+Letter 10 — Know Your Customer update
+Dear Customer,
+We have received the KYC documents of Anjali Mehta.
+Name: Anjali Mehta
+Address: 22, Lake View Road, Ahmedabad - 380015
+Mobile: +91 82714 05075
+Aadhaar No: 8437 0517 7343
+Your KYC status is now verified. — Branch Operations Team

@@ -1,0 +1,112 @@
+<!doctype html>
+<!-- sidepanel.html — MaskIN's side panel: status, settings, document input, this chat, clear data. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MaskIN</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="brand">
+    <img src="icons/icon48.png" alt="" width="28" height="28">
+    <div>
+      <h1>MaskIN</h1>
+      <p>Private details stay on your laptop.</p>
+    </div>
+  </header>
+
+  <!-- 1. Status -->
+  <section class="card" id="status-card">
+    <div class="status-row">
+      <span class="dot" id="status-dot"></span>
+      <strong id="status-text">Checking local AI...</strong>
+      <button class="small" id="status-refresh" title="Check again">Refresh</button>
+    </div>
+    <p class="hint" id="status-fix" hidden></p>
+  </section>
+
+  <!-- 2. Settings -->
+  <section class="card">
+    <h2>Settings</h2>
+    <label class="field">
+      <span>Model</span>
+      <select id="set-model">
+        <option value="gemma4:e4b">gemma4:e4b (16 GB RAM or more)</option>
+        <option value="gemma4:e2b">gemma4:e2b (8 GB RAM)</option>
+      </select>
+    </label>
+    <label class="field toggle">
+      <span>Send guard <small>(stop unmasked sends)</small></span>
+      <input type="checkbox" id="set-guard">
+    </label>
+    <div class="field">
+      <span>Fake style</span>
+      <div class="seg">
+        <label><input type="radio" name="fake-style" value="realistic"> Realistic</label>
+        <label><input type="radio" name="fake-style" value="tags"> Tags like [NAME_1]</label>
+      </div>
+    </div>
+    <p class="hint" id="set-saved" hidden>Saved.</p>
+  </section>
+
+  <!-- 3. Document -->
+  <section class="card">
+    <h2>Document</h2>
+    <label class="drop" id="drop">
+      <input type="file" id="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" hidden>
+      <strong>Drop a PDF, JPG or PNG here</strong>
+      <span>or click to choose a file. It is read on this laptop and never uploaded.</span>
+    </label>
+    <p class="progress" id="doc-progress" hidden></p>
+    <div id="doc-review" hidden>
+      <p class="doc-title" id="doc-title"></p>
+      <div id="doc-items"></div>
+      <div class="add">
+        <input type="text" id="doc-add-input" placeholder="Missed something? Type it here">
+        <button class="small" id="doc-add">+ Add item</button>
+      </div>
+      <p class="hint warn" id="doc-add-msg"></p>
+      <p class="hint" id="doc-status"></p>
+      <button class="primary wide" id="doc-insert">Insert masked text into ChatGPT</button>
+      <p class="hint" id="doc-insert-msg"></p>
+    </div>
+  </section>
+
+  <!-- 4. This chat -->
+  <section class="card">
+    <h2>This chat</h2>
+    <p class="hint" id="chat-where"></p>
+    <ul class="chat-list" id="chat-list"></ul>
+    <button class="wide" id="restore-now" title="Swap fakes back to real values in every message of the open chat">Restore now</button>
+    <p class="hint" id="restore-msg"></p>
+  </section>
+
+  <!-- 4b. On-screen filter -->
+  <section class="card" id="view-card" hidden>
+    <h2>Show real values on screen</h2>
+    <p class="hint">Unticked types stay as the fake or tag on screen. This only changes what you see; ChatGPT's message box and what was sent are never changed.</p>
+    <div class="view-list" id="view-list"></div>
+  </section>
+
+  <!-- 5. Clear -->
+  <section class="card">
+    <h2>Saved data</h2>
+    <div class="clear-row">
+      <button id="clear-chat">Clear this chat</button>
+      <button id="clear-all" class="danger">Clear all MaskIN data</button>
+    </div>
+    <div class="confirm" id="confirm" hidden>
+      <span id="confirm-text"></span>
+      <button class="small danger" id="confirm-yes">Yes, clear</button>
+      <button class="small" id="confirm-no">No</button>
+    </div>
+    <p class="hint" id="clear-msg"></p>
+  </section>
+
+  <script src="lib/tesseract/tesseract.min.js"></script>
+  <script src="config.js"></script>
+  <script src="storage.js"></script>
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

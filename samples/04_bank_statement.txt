@@ -1,0 +1,23 @@
+SAMPLE – FAKE DATA. Every name, number and address below is made up for testing MaskIN.
+
+STATE BANK OF INDIA — ACCOUNT STATEMENT
+Account holder: Siddharth Rao
+Address: 31, Hill Road, Bandra West, Mumbai - 400050
+A/c No: 008289432132     IFSC: SBIN0360407     Mobile: +91 97286 46585
+Statement period: 01-09-2026 to 30-09-2026
+
+Date        Description                                   Debit (Rs)   Credit (Rs)   Balance (Rs)
+01-09-2026  Opening balance                                                          42,350.00
+02-09-2026  UPI/DR/swiggy@ybl/Food order                  640.00                     41,710.00
+04-09-2026  UPI/DR/meera.joshi@okaxis/Rent share         9,000.00                    32,710.00
+05-09-2026  SALARY CREDIT                                              85,000.00    1,17,710.00
+09-09-2026  UPI/DR/9201405933@paytm/Vegetables             310.00                  1,17,400.00
+12-09-2026  ATM WDL CHARGES                                  23.60                  1,17,376.40
+15-09-2026  UPI/DR/bigbasket@ybl/Groceries                 2,145.00                  1,15,231.40
+18-09-2026  SMS ALERT CHARGES QTR                            17.70                  1,15,213.70
+21-09-2026  UPI/DR/rohit.kale@okicici/Dinner split         1,200.00                  1,14,013.70
+25-09-2026  DEBIT CARD ANNUAL FEE                           236.00                  1,13,777.70
+28-09-2026  UPI/DR/irctc@hdfcbank/Train ticket             1,865.00                  1,11,912.70
+30-09-2026  Closing balance                                                         1,11,912.70
+
+Own UPI ID: siddharth.rao@oksbi

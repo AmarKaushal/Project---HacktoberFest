@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "MaskIN",
+  "version": "1.0.0",
+  "description": "Use ChatGPT on private Indian documents without ChatGPT seeing the real details.",
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["https://chatgpt.com/*", "http://localhost:11434/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*"],
+    "js": ["config.js", "detectors.js", "names.js", "fakes.js", "content.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }],
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": {
+    "default_title": "MaskIN",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "commands": {
+    "mask": {
+      "suggested_key": { "default": "Alt+Shift+M", "mac": "Alt+Shift+M" },
+      "description": "Mask the current message"
+    }
+  },
+  "content_security_policy": { "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'" },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "lib/pdfjs/*",
+        "lib/tesseract/*"
+      ],
+      "matches": ["https://chatgpt.com/*"]
+    }
+  ]
+}

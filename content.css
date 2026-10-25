@@ -1,0 +1,223 @@
+/* content.css — styles for MaskIN on ChatGPT */
+
+#maskin-mask-btn,
+#maskin-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 32px;
+  padding: 0 12px;
+  margin: 0 3px;
+  border: 1px solid #6d28d9;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #6d28d9;
+  font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  cursor: pointer;
+  flex-shrink: 0;
+  z-index: 10;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(109, 40, 217, 0.08);
+}
+
+#maskin-mask-btn:hover,
+#maskin-pdf-btn:hover {
+  background: #6d28d9;
+  color: #ffffff;
+}
+
+:is(.dark, [data-theme="dark"]) #maskin-mask-btn {
+  background: #1e1b4b;
+  border-color: #8b5cf6;
+  color: #c4b5fd;
+}
+
+:is(.dark, [data-theme="dark"]) #maskin-mask-btn:hover {
+  background: #7c3aed;
+  color: #ffffff;
+}
+
+#maskin-mask-btn:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+#maskin-mask-btn svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* Restored text highlight and visual overlay in ChatGPT replies */
+.maskin-restored {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 3px !important;
+  border-radius: 4px !important;
+  padding: 1px 5px !important;
+  margin: 0 1px !important;
+  font-weight: 600 !important;
+  cursor: help !important;
+  transition: all 0.15s ease !important;
+}
+
+.maskin-restored.maskin-pill-real {
+  background: rgba(13, 148, 136, 0.15) !important;
+  border: 1px solid #14b8a6 !important;
+  color: #0f766e !important;
+  text-decoration: underline dotted #0d9488 2px !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-restored.maskin-pill-real {
+  background: rgba(45, 212, 191, 0.2) !important;
+  border-color: #2dd4bf !important;
+  color: #5eead4 !important;
+}
+
+.maskin-restored.maskin-pill-fake {
+  background: rgba(234, 88, 12, 0.12) !important;
+  border: 1px solid #f97316 !important;
+  color: #c2410c !important;
+  text-decoration: underline dashed #ea580c 1px !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-restored.maskin-pill-fake {
+  background: rgba(251, 146, 60, 0.2) !important;
+  border-color: #fb923c !important;
+  color: #fdba74 !important;
+}
+
+.maskin-restored-tag {
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: #0f766e !important;
+  background: #ccfbf1 !important;
+  padding: 0 3px !important;
+  border-radius: 3px !important;
+  margin-left: 2px !important;
+  user-select: none !important;
+  pointer-events: none !important;
+}
+
+/* Action bar directly beneath assistant replies */
+.maskin-badge-container {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin-top: 10px !important;
+  margin-bottom: 8px !important;
+  padding: 6px 10px !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 999px !important;
+  font-size: 12px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  user-select: none !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  position: relative !important;
+  z-index: 10 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-badge-container {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.maskin-chip-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  font-size: 11px !important;
+}
+
+.maskin-chip-badge.teal {
+  background: #f0fdf4 !important;
+  color: #0f766e !important;
+  border: 1px solid #99f6e4 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-chip-badge.teal {
+  background: rgba(15, 118, 110, 0.3) !important;
+  color: #5eead4 !important;
+  border-color: #14b8a6 !important;
+}
+
+.maskin-chip-badge.amber {
+  background: #fef3c7 !important;
+  color: #b45309 !important;
+  border: 1px solid #fde68a !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-chip-badge.amber {
+  background: rgba(180, 83, 9, 0.3) !important;
+  color: #fcd34d !important;
+  border-color: #d97706 !important;
+}
+
+/* Action buttons matching the pill design and purple theme of the Mask button */
+.maskin-action-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  height: 28px !important;
+  padding: 0 12px !important;
+  margin: 0 2px !important;
+  border: 1px solid #6d28d9 !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  color: #6d28d9 !important;
+  font: 600 12px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  transition: all 0.15s ease !important;
+  box-shadow: 0 1px 2px rgba(109, 40, 217, 0.08) !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-action-btn {
+  background: #1e1b4b !important;
+  border-color: #8b5cf6 !important;
+  color: #c4b5fd !important;
+}
+
+.maskin-action-btn:hover {
+  background: #6d28d9 !important;
+  color: #ffffff !important;
+  border-color: #6d28d9 !important;
+}
+
+:is(.dark, [data-theme="dark"]) .maskin-action-btn:hover {
+  background: #7c3aed !important;
+  color: #ffffff !important;
+  border-color: #7c3aed !important;
+}
+
+.maskin-action-btn.active {
+  background: #6d28d9 !important;
+  color: #ffffff !important;
+  border-color: #6d28d9 !important;
+}
+
+.maskin-action-btn.active:hover {
+  background: #5b21b6 !important;
+  border-color: #5b21b6 !important;
+}
+
+.maskin-action-btn svg {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Floating fallback */
+#maskin-mask-btn.maskin-floating,
+#maskin-pdf-btn.maskin-floating {
+  position: fixed;
+  z-index: 2147483000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}

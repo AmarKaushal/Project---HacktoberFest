@@ -1,0 +1,18 @@
+SAMPLE – FAKE DATA. Every name, number and address below is made up for testing MaskIN.
+
+My notes about the failed payment (to write a complaint to the bank)
+
+Name: Neha Bansal
+Bank: HDFC Bank, A/c No 918243757470, IFSC HDFC0796511
+UPI ID: neha.bansal@okhdfcbank
+Mobile: +91 87557 72280
+Email: neha.bansal92@gmail.com
+Address: 6, Malviya Nagar, Jaipur - 302017
+
+What happened:
+On 14-10-2026 at 7:42 PM I paid Rs. 18,500 to my landlord (UPI ID ashok.rathore@ybl) for October rent.
+The money was debited from my account but the landlord did not receive it.
+UPI transaction reference: 428917305661
+The bank app shows the status as "Pending" for 10 days now.
+I called customer care on 16-10-2026 and got complaint number CMP-77821, but nothing happened.
+I want the amount refunded or credited to the landlord, and compensation as per RBI rules for failed transactions.
